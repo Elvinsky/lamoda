@@ -1,0 +1,30 @@
+.search-wrapper {
+    display        : flex;
+    justify-content: flex-start;
+}
+
+/* .search-pic {
+    width : 40px;
+    height: 40px;
+    border: 1px solid black
+} */
+
+.search-bar {
+    width       : 800px;
+    height      : 35px;
+    border-width: 1px 1px 1px 1px;
+    font-size   : 1.3em;
+}
+
+.search-btn {
+    width           : 39px;
+    height          : 39px;
+    border          : 0;
+    background-color: rgba(118, 118, 201, 0.185);
+    position        : relative;
+    right           : 3em
+}
+
+.search-btn:active {
+    background-color: rgba(118, 118, 201, 0.639);
+}

@@ -1,0 +1,21 @@
+.item-wrapper {
+    margin          : 1em;
+    padding         : 1em;
+    background-color: rgba(171, 171, 171, 0.596);
+}
+
+.item-pic {
+    height: 120px;
+    width : 120px;
+}
+
+small.desc {
+    color        : rgb(81, 81, 81);
+    margin-bottom: 1em;
+}
+
+.price {
+    font-size: 1.4em;
+    border   : 1px solid black;
+    width    : fit-content;
+}

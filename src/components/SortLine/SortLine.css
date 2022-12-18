@@ -1,0 +1,24 @@
+.sortline-wrapper {
+    display       : flex;
+    /* margin-left: 10.5em; */
+}
+
+.sortline-wrapper button {
+    margin-top         : 1em;
+    /* margin-left     : 1em; */
+    margin-right       : 1em;
+    padding            : 0.7em;
+    border             : 1px solid black;
+    background-color   : white;
+    transition         : all 0.2s ease;
+
+    font-size: 1em;
+}
+
+.sortline-wrapper button:hover {
+    background-color: rgba(198, 198, 198, 0.77);
+}
+
+.sortline-wrapper button:active {
+    scale: 1.1;
+}

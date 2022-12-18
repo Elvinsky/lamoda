@@ -1,0 +1,36 @@
+body {
+    width     : 80%;
+    margin    : auto;
+    margin-top: 5em;
+}
+
+.items-wrapper {
+    display              : grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    justify-content      : flex-end;
+}
+
+.filter-wrapper__color {
+    width        : fit-content;
+    border       : 1px solid black;
+    padding      : 0.5em;
+    font-size    : 0.8em;
+    margin-top   : 1em;
+    margin-right : 1em;
+    margin-bottom: 1em;
+}
+
+.filter-wrapper__price {
+    width        : fit-content;
+    border       : 1px solid black;
+    padding      : 0.5em;
+    font-size    : 0.8em;
+    margin-top   : 1em;
+    margin-right : 1em;
+    margin-bottom: 1em;
+}
+
+.ui-wrap {
+    display: flex;
+    width  : 90%;
+}
